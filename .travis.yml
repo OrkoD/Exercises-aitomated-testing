@@ -14,5 +14,5 @@ branches:
     - master # will only build for master branch commits
 
 script:
-  - npm lint
+  - npm run lint
   - npm test
